@@ -1,7 +1,60 @@
-.App {
+ 
+ body{
+  background-image: url(./image/pexels-anni-roenkae-2832382.jpg) ;
+  display: flex;
+  justify-content: center;}
+ 
+ .App {
   text-align: center;
+  background-color: rgb(140, 176, 249);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 25px;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 0px 2px 1px rgb(210, 225, 232);
+
 }
 
+.close{
+  color:aliceblue;
+  float:right;
+}
+.close:hover{
+  color:brown;
+}
+p{
+  padding-right: 10px ;
+  margin-left: -35px;
+}
+.button{
+  padding:  19px 24px;
+  color:white;
+  background-color: rgb(102, 192, 248);
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.8);
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 20px;
+
+}
+.button:active{
+  background-color: rgb(138, 213, 231);
+  color:rgb(75, 73, 73);
+
+}
+h1{
+padding:41px;
+background-image: url(./image/pexels-anni-roenkae-2832382.jpg);
+border-radius: 5px;
+}
+.confetti{
+  color: rgb(201, 61, 11)
+}
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +88,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
